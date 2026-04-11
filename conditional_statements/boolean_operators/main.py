@@ -1,10 +1,5 @@
-# define a boolean variable, assign a value and compare it using the greater than or equal to (>=) operator 
-
+# Using Boolean data type to check for discount eligibility
 total_cost = 25.00
-discount_threshhold = 20.00
-discountEligible = total_cost >= discount_threshhold
-
+discountEligible = total_cost >= 20.00
 print("Is the purchase eligible for a discount?", discountEligible)
-
-
-
+     
