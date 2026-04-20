@@ -4,14 +4,10 @@ price = "5.99"
 count = 120
 
 # Write your code here
-# Check if the "raw" and "Imported" keywords exists in description
-contains_raw = "raw" in description
-contains_Imported = "Imported" in description
-
-# Use the type() function to check if price is of type float
+contains_raw = 'raw' in description
+contains_Imported = 'Imported' in description
+# Checking if data types are as expected
 price_is_float = type(price) == float
-
-# Use the type() function to check if count is of type int
 count_is_int = type(count) == int
 
 print("Contains 'raw':", contains_raw)
